@@ -19,14 +19,11 @@ end
 
 class Photo
 
-    attr_accessor :user, :comments
+    attr_accessor :user
     @@all = []
     
     def initialize
         @@all << self
-    end
-    def comments
-
     end
 
     def self.all
@@ -79,3 +76,6 @@ sandwich_photo.comments
 
 Comment.all
 #=> [#<Comment:0x00007fae28043700>]
+binding.pry
+
+puts
