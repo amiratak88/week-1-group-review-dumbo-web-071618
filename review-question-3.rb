@@ -76,6 +76,3 @@ sandwich_photo.comments
 
 Comment.all
 #=> [#<Comment:0x00007fae28043700>]
-binding.pry
-
-puts
