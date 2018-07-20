@@ -35,7 +35,7 @@ class Photo
 
     def comments
         Comment.all.select do |com|
-            com.photo = self
+            com.photo == self
         end
     end
     def make_comment(str)
